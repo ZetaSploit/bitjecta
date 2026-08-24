@@ -2,7 +2,6 @@
 #include <ios>
 #include <iostream>
 #include <fstream>
-#include <iterator>
 #include <vector>
 #include <string>
 #include <iomanip>
@@ -43,13 +42,23 @@ void fparse(const std::string& file_name) {
 }
 
 std::vector<std::uint32_t> convert_and_swap(const std::vector<char>& buffer) {
-    std::size_t num_elements = buffer.size() / 4;
-    std::vector<std::uint32_t> result(num_elements);
+    size_t num_elements = buffer.size() / 4;
+    std::vector<std::uint32_t> result;
+    result.reserve(num_elements);
 
-    std::memcpy(result.data(), buffer.data(), num_elements * 4);
+    // Cast pointer safely to unsigned char to avoid signed extension bugs during shifting
+    const unsigned char* src = reinterpret_cast<const unsigned char*>(buffer.data());
 
-    for (std::size_t i = 0; i < result.size(); i++) {
-        result[i] = std::byteswap(result[i]);
+    for (size_t i = 0; i < num_elements; ++i) {
+        size_t idx = i * 4;
+        
+        // Manual bit-shifting constructs the uint32_t value byte-by-byte.
+        std::uint32_t val = (static_cast<std::uint32_t>(src[idx + 0]) << 24) |
+                            (static_cast<std::uint32_t>(src[idx + 1]) << 16) |
+                            (static_cast<std::uint32_t>(src[idx + 2]) << 8)  |
+                            (static_cast<std::uint32_t>(src[idx + 3]));
+                            
+        result.push_back(val);
     }
 
     return result;

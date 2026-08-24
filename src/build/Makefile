@@ -116,6 +116,43 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named bitjecta
+
+# Build rule for target.
+bitjecta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bitjecta
+.PHONY : bitjecta
+
+# fast build rule for target.
+bitjecta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/build
+.PHONY : bitjecta/fast
+
+bitjecta.o: bitjecta.cc.o
+.PHONY : bitjecta.o
+
+# target to build an object file
+bitjecta.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/bitjecta.cc.o
+.PHONY : bitjecta.cc.o
+
+bitjecta.i: bitjecta.cc.i
+.PHONY : bitjecta.i
+
+# target to preprocess a source file
+bitjecta.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/bitjecta.cc.i
+.PHONY : bitjecta.cc.i
+
+bitjecta.s: bitjecta.cc.s
+.PHONY : bitjecta.s
+
+# target to generate assembly for a file
+bitjecta.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/bitjecta.cc.s
+.PHONY : bitjecta.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bitjecta"
+	@echo "... bitjecta.o"
+	@echo "... bitjecta.i"
+	@echo "... bitjecta.s"
 .PHONY : help
 
 
