@@ -1,0 +1,2 @@
+/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/edit_cache.dir
+/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/rebuild_cache.dir
