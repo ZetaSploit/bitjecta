@@ -1,8 +1,8 @@
-# bitjecta
+# hexjecta
 
 A minimal C++ binary file parser and hexadecimal dumper.
 
-`bitjecta` reads a file in binary mode and prints its contents as hexadecimal byte values. The project is currently focused on low-level file inspection and is intended as a foundation for experimenting with binary formats and reverse engineering.
+`hexjecta` reads a file in binary mode and prints its contents as hexadecimal byte values. The project is currently focused on low-level file inspection and is intended as a foundation for experimenting with binary formats and reverse engineering.
 
 ## Features
 
@@ -23,19 +23,19 @@ A minimal C++ binary file parser and hexadecimal dumper.
 Using `g++`:
 
 ```bash
-g++ -std=c++17 -O2 bitjecta.cc -o bitjecta
+g++ -std=c++17 -O2 hexjecta.cc -o hexjecta
 ```
 
 ## Usage
 
 ```bash
-./bitjecta <file>
+./hexjecta <file>
 ```
 
 For example:
 
 ```bash
-./bitjecta /bin/ls
+./hexjecta /bin/ls
 ```
 
 Example output:
@@ -85,7 +85,7 @@ Possible directions include:
 
 ## Motivation
 
-`bitjecta` is being developed as a low-level C++ project for understanding how binary files are represented and structured at the byte level.
+`hexjecta` is being developed as a low-level C++ project for understanding how binary files are represented and structured at the byte level.
 
 The goal is to progressively move from:
 
