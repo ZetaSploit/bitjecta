@@ -1,5 +1,5 @@
-CMakeFiles/bitjecta.dir/bitjecta.cc.o: \
- /home/lapis/Projects/custom/bitjecta/src/bitjecta.cc \
+CMakeFiles/hexjecta.dir/hexjecta.cc.o: \
+ /home/lapis/Projects/custom/hexjecta/src/hexjecta.cc \
  /usr/include/stdc-predef.h /usr/include/c++/16/cstddef \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -165,8 +165,7 @@ CMakeFiles/bitjecta.dir/bitjecta.cc.o: \
  /usr/include/c++/16/bits/istream.tcc /usr/include/c++/16/fstream \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/iterator \
- /usr/include/c++/16/bits/stream_iterator.h /usr/include/c++/16/vector \
+ /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \

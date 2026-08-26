@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/bitjecta.dir/link.d CMakeFiles/bitjecta.dir/bitjecta.cc.o -o bitjecta

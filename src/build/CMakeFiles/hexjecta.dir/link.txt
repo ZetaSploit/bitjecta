@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/hexjecta.dir/link.d CMakeFiles/hexjecta.dir/hexjecta.cc.o -o hexjecta

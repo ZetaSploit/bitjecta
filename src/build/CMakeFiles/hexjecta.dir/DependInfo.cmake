@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lapis/Projects/custom/bitjecta/src/bitjecta.cc" "CMakeFiles/bitjecta.dir/bitjecta.cc.o" "gcc" "CMakeFiles/bitjecta.dir/bitjecta.cc.o.d"
-  "" "bitjecta" "gcc" "CMakeFiles/bitjecta.dir/link.d"
+  "/home/lapis/Projects/custom/hexjecta/src/hexjecta.cc" "CMakeFiles/hexjecta.dir/hexjecta.cc.o" "gcc" "CMakeFiles/hexjecta.dir/hexjecta.cc.o.d"
+  "" "hexjecta" "gcc" "CMakeFiles/hexjecta.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

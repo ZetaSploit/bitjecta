@@ -20,42 +20,49 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
       - "/bin/"
     searched_directories:
+      - "/usr/share/omarchy/bin/uname"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/uname"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/uname"
       - "/home/lapis/.local/share/mise/shims/uname"
-      - "/home/lapis/.local/share/omarchy/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 7.1.8-arch1-3 - x86_64
+      The system is: Linux - 7.1.9-arch1-2 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -77,44 +84,53 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     searched_directories:
+      - "/usr/share/omarchy/bin/gmake"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gmake"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gmake"
       - "/home/lapis/.local/share/mise/shims/gmake"
-      - "/home/lapis/.local/share/omarchy/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
+      - "/home/lapis/.local/bin/gmake"
       - "/usr/lib/jvm/default/bin/gmake"
       - "/usr/bin/site_perl/gmake"
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
-      - "/home/lapis/.local/bin/gmake"
+      - "/usr/share/omarchy/bin/make"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/make"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/make"
       - "/home/lapis/.local/share/mise/shims/make"
-      - "/home/lapis/.local/share/omarchy/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -144,34 +160,41 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     searched_directories:
+      - "/usr/share/omarchy/bin/c++"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/c++"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/c++"
       - "/home/lapis/.local/share/mise/shims/c++"
-      - "/home/lapis/.local/share/omarchy/bin/c++"
       - "/usr/local/sbin/c++"
       - "/usr/local/bin/c++"
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -199,16 +222,19 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -229,7 +255,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
+        /home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -252,28 +278,33 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -295,28 +326,33 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -338,28 +374,33 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -381,28 +422,33 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -424,28 +470,33 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -467,28 +518,33 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -510,28 +566,33 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -553,28 +614,33 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -596,39 +662,46 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/usr/share/omarchy/bin/dlltool"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/dlltool"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/dlltool"
       - "/home/lapis/.local/share/mise/shims/dlltool"
-      - "/home/lapis/.local/share/omarchy/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
+      - "/home/lapis/.local/bin/dlltool"
       - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
-      - "/home/lapis/.local/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -650,28 +723,33 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -693,39 +771,46 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/usr/share/omarchy/bin/tapi"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/tapi"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/tapi"
       - "/home/lapis/.local/share/mise/shims/tapi"
-      - "/home/lapis/.local/share/omarchy/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
+      - "/home/lapis/.local/bin/tapi"
       - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
-      - "/home/lapis/.local/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -750,59 +835,70 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.2"
+      - "/usr/share/omarchy/bin/gcc-ar-16.2"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gcc-ar-16.2"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gcc-ar-16.2"
       - "/home/lapis/.local/share/mise/shims/gcc-ar-16.2"
-      - "/home/lapis/.local/share/omarchy/bin/gcc-ar-16.2"
       - "/usr/local/sbin/gcc-ar-16.2"
       - "/usr/local/bin/gcc-ar-16.2"
+      - "/home/lapis/.local/bin/gcc-ar-16.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-16.2"
       - "/usr/bin/site_perl/gcc-ar-16.2"
       - "/usr/bin/vendor_perl/gcc-ar-16.2"
       - "/usr/bin/core_perl/gcc-ar-16.2"
-      - "/home/lapis/.local/bin/gcc-ar-16.2"
       - "/usr/bin/gcc-ar-16"
+      - "/usr/share/omarchy/bin/gcc-ar-16"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gcc-ar-16"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gcc-ar-16"
       - "/home/lapis/.local/share/mise/shims/gcc-ar-16"
-      - "/home/lapis/.local/share/omarchy/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
+      - "/home/lapis/.local/bin/gcc-ar-16"
       - "/usr/lib/jvm/default/bin/gcc-ar-16"
       - "/usr/bin/site_perl/gcc-ar-16"
       - "/usr/bin/vendor_perl/gcc-ar-16"
       - "/usr/bin/core_perl/gcc-ar-16"
-      - "/home/lapis/.local/bin/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
+      - "/usr/share/omarchy/bin/gcc-ar16"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gcc-ar16"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gcc-ar16"
       - "/home/lapis/.local/share/mise/shims/gcc-ar16"
-      - "/home/lapis/.local/share/omarchy/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
+      - "/home/lapis/.local/bin/gcc-ar16"
       - "/usr/lib/jvm/default/bin/gcc-ar16"
       - "/usr/bin/site_perl/gcc-ar16"
       - "/usr/bin/vendor_perl/gcc-ar16"
       - "/usr/bin/core_perl/gcc-ar16"
-      - "/home/lapis/.local/bin/gcc-ar16"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -827,59 +923,70 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/"
       - "/home/lapis/.local/share/mise/shims/"
-      - "/home/lapis/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/home/lapis/.local/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/lapis/.local/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.2"
+      - "/usr/share/omarchy/bin/gcc-ranlib-16.2"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gcc-ranlib-16.2"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gcc-ranlib-16.2"
       - "/home/lapis/.local/share/mise/shims/gcc-ranlib-16.2"
-      - "/home/lapis/.local/share/omarchy/bin/gcc-ranlib-16.2"
       - "/usr/local/sbin/gcc-ranlib-16.2"
       - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/home/lapis/.local/bin/gcc-ranlib-16.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-16.2"
       - "/usr/bin/site_perl/gcc-ranlib-16.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-16.2"
       - "/usr/bin/core_perl/gcc-ranlib-16.2"
-      - "/home/lapis/.local/bin/gcc-ranlib-16.2"
       - "/usr/bin/gcc-ranlib-16"
+      - "/usr/share/omarchy/bin/gcc-ranlib-16"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gcc-ranlib-16"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gcc-ranlib-16"
       - "/home/lapis/.local/share/mise/shims/gcc-ranlib-16"
-      - "/home/lapis/.local/share/omarchy/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
+      - "/home/lapis/.local/bin/gcc-ranlib-16"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
       - "/usr/bin/site_perl/gcc-ranlib-16"
       - "/usr/bin/vendor_perl/gcc-ranlib-16"
       - "/usr/bin/core_perl/gcc-ranlib-16"
-      - "/home/lapis/.local/bin/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
+      - "/usr/share/omarchy/bin/gcc-ranlib16"
+      - "/home/lapis/.local/share/mise/installs/codex/latest/bin/gcc-ranlib16"
+      - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin/gcc-ranlib16"
       - "/home/lapis/.local/share/mise/shims/gcc-ranlib16"
-      - "/home/lapis/.local/share/omarchy/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
+      - "/home/lapis/.local/bin/gcc-ranlib16"
       - "/usr/lib/jvm/default/bin/gcc-ranlib16"
       - "/usr/bin/site_perl/gcc-ranlib16"
       - "/usr/bin/vendor_perl/gcc-ranlib16"
       - "/usr/bin/core_perl/gcc-ranlib16"
-      - "/home/lapis/.local/bin/gcc-ranlib16"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/usr/share/omarchy/bin"
+        - "/home/lapis/.local/share/mise/installs/codex/latest/bin"
+        - "/home/lapis/.local/share/mise/installs/node/26.2.0/bin"
         - "/home/lapis/.local/share/mise/shims"
-        - "/home/lapis/.local/share/omarchy/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/lapis/.local/share/mise/shims"
+        - "/home/lapis/.local/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/lapis/.local/bin"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -889,8 +996,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao"
-      binary: "/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao"
+      source: "/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg"
+      binary: "/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -901,13 +1008,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao'
+        Change Dir: '/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e1571/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e1571.dir/build.make CMakeFiles/cmTC_e1571.dir/build
-        make[1]: Entering directory '/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao'
-        Building CXX object CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7432d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7432d.dir/build.make CMakeFiles/cmTC_7432d.dir/build
+        make[1]: Entering directory '/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg'
+        Building CXX object CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -915,8 +1022,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1571.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e1571.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccdYVmVW.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7432d.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7432d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccRNGVDx.s
         GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -933,14 +1040,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1571.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdYVmVW.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7432d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRNGVDx.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_e1571
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1571.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_7432d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7432d.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -951,14 +1058,14 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1571' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1571.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYHQK1S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e1571 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7432d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7432d.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYolgEC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7432d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYHQK1S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e1571 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYolgEC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7432d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1571' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1571.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e1571
-        make[1]: Leaving directory '/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7432d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7432d.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7432d
+        make[1]: Leaving directory '/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg'
         
       exitCode: 0
   -
@@ -997,13 +1104,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao']
+        ignore line: [Change Dir: '/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e1571/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e1571.dir/build.make CMakeFiles/cmTC_e1571.dir/build]
-        ignore line: [make[1]: Entering directory '/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-FrrRao']
-        ignore line: [Building CXX object CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7432d/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_7432d.dir/build.make CMakeFiles/cmTC_7432d.dir/build]
+        ignore line: [make[1]: Entering directory '/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles/CMakeScratch/TryCompile-pW00mg']
+        ignore line: [Building CXX object CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1011,8 +1118,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1571.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e1571.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccdYVmVW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7432d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7432d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccRNGVDx.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1029,14 +1136,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1571.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdYVmVW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7432d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRNGVDx.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_e1571]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1571.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_7432d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7432d.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -1047,13 +1154,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1571' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1571.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYHQK1S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e1571 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7432d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7432d.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYolgEC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7432d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccYHQK1S.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYolgEC.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1069,7 +1176,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e1571] ==> ignore
+          arg [cmTC_7432d] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1081,7 +1188,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1093,9 +1200,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYHQK1S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e1571 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYHQK1S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e1571 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYHQK1S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e1571 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e1571.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYolgEC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7432d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYolgEC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7432d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYolgEC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7432d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_7432d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]

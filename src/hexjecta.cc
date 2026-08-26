@@ -7,8 +7,6 @@
 #include <iomanip>
 #include <filesystem>
 #include <byteswap.h>
-#include <bit>
-//#include <cstdint>
 
 
 
@@ -46,7 +44,6 @@ std::vector<std::uint32_t> convert_and_swap(const std::vector<char>& buffer) {
     std::vector<std::uint32_t> result;
     result.reserve(num_elements);
 
-    // Cast pointer safely to unsigned char to avoid signed extension bugs during shifting
     const unsigned char* src = reinterpret_cast<const unsigned char*>(buffer.data());
 
     for (size_t i = 0; i < num_elements; ++i) {

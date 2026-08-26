@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/lapis/Projects/custom/bitjecta/src/build/cmake_install.cmake"
+		"/home/lapis/Projects/custom/hexjecta/src/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

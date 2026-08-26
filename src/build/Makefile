@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lapis/Projects/custom/bitjecta/src
+CMAKE_SOURCE_DIR = /home/lapis/Projects/custom/hexjecta/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lapis/Projects/custom/bitjecta/src/build
+CMAKE_BINARY_DIR = /home/lapis/Projects/custom/hexjecta/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles /home/lapis/Projects/custom/bitjecta/src/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles /home/lapis/Projects/custom/hexjecta/src/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bitjecta
+# Target rules for targets named hexjecta
 
 # Build rule for target.
-bitjecta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bitjecta
-.PHONY : bitjecta
+hexjecta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hexjecta
+.PHONY : hexjecta
 
 # fast build rule for target.
-bitjecta/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/build
-.PHONY : bitjecta/fast
+hexjecta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/build
+.PHONY : hexjecta/fast
 
-bitjecta.o: bitjecta.cc.o
-.PHONY : bitjecta.o
+hexjecta.o: hexjecta.cc.o
+.PHONY : hexjecta.o
 
 # target to build an object file
-bitjecta.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/bitjecta.cc.o
-.PHONY : bitjecta.cc.o
+hexjecta.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/hexjecta.cc.o
+.PHONY : hexjecta.cc.o
 
-bitjecta.i: bitjecta.cc.i
-.PHONY : bitjecta.i
+hexjecta.i: hexjecta.cc.i
+.PHONY : hexjecta.i
 
 # target to preprocess a source file
-bitjecta.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/bitjecta.cc.i
-.PHONY : bitjecta.cc.i
+hexjecta.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/hexjecta.cc.i
+.PHONY : hexjecta.cc.i
 
-bitjecta.s: bitjecta.cc.s
-.PHONY : bitjecta.s
+hexjecta.s: hexjecta.cc.s
+.PHONY : hexjecta.s
 
 # target to generate assembly for a file
-bitjecta.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/bitjecta.cc.s
-.PHONY : bitjecta.cc.s
+hexjecta.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/hexjecta.cc.s
+.PHONY : hexjecta.cc.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bitjecta"
-	@echo "... bitjecta.o"
-	@echo "... bitjecta.i"
-	@echo "... bitjecta.s"
+	@echo "... hexjecta"
+	@echo "... hexjecta.o"
+	@echo "... hexjecta.i"
+	@echo "... hexjecta.s"
 .PHONY : help
 
 

@@ -54,20 +54,20 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lapis/Projects/custom/bitjecta/src
+CMAKE_SOURCE_DIR = /home/lapis/Projects/custom/hexjecta/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lapis/Projects/custom/bitjecta/src/build
+CMAKE_BINARY_DIR = /home/lapis/Projects/custom/hexjecta/src/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/bitjecta.dir/all
+all: CMakeFiles/hexjecta.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/bitjecta.dir/codegen
+codegen: CMakeFiles/hexjecta.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/bitjecta.dir/clean
+clean: CMakeFiles/hexjecta.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/bitjecta.dir
+# Target rules for target CMakeFiles/hexjecta.dir
 
 # All Build rule for target.
-CMakeFiles/bitjecta.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles --progress-num=1,2 "Built target bitjecta"
-.PHONY : CMakeFiles/bitjecta.dir/all
+CMakeFiles/hexjecta.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles --progress-num=1,2 "Built target hexjecta"
+.PHONY : CMakeFiles/hexjecta.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bitjecta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bitjecta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles 0
-.PHONY : CMakeFiles/bitjecta.dir/rule
+CMakeFiles/hexjecta.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hexjecta.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles 0
+.PHONY : CMakeFiles/hexjecta.dir/rule
 
 # Convenience name for target.
-bitjecta: CMakeFiles/bitjecta.dir/rule
-.PHONY : bitjecta
+hexjecta: CMakeFiles/hexjecta.dir/rule
+.PHONY : hexjecta
 
 # codegen rule for target.
-CMakeFiles/bitjecta.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lapis/Projects/custom/bitjecta/src/build/CMakeFiles --progress-num=1,2 "Finished codegen for target bitjecta"
-.PHONY : CMakeFiles/bitjecta.dir/codegen
+CMakeFiles/hexjecta.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lapis/Projects/custom/hexjecta/src/build/CMakeFiles --progress-num=1,2 "Finished codegen for target hexjecta"
+.PHONY : CMakeFiles/hexjecta.dir/codegen
 
 # clean rule for target.
-CMakeFiles/bitjecta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitjecta.dir/build.make CMakeFiles/bitjecta.dir/clean
-.PHONY : CMakeFiles/bitjecta.dir/clean
+CMakeFiles/hexjecta.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hexjecta.dir/build.make CMakeFiles/hexjecta.dir/clean
+.PHONY : CMakeFiles/hexjecta.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
